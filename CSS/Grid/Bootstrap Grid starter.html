@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Basics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-1 text-center text-primary"> The Grid System</h1>
+        <div class="row">
+            <div class="col-4 bg-success">I AM 4 UNITS</div>
+            <div class="col-8 bg-danger">I AM 8 UNITS</div>
+        </div>
+        <div class="row">
+            <div class="col-2 bg-success">I AM 2 UNITS</div>
+            <div class="col-4 bg-danger">I AM 4 UNITS</div>
+            <div class="col-6 bg-info">I AM 6 UNITS</div>
+        </div>
+        <div class="row">
+            <div class="col bg-primary">I AM AUTO SIZED</div>
+            <div class="col bg-seconday">I AM AUTO SIZED</div>
+            <div class="col-8 bg-primary">I AM 8 UNITS</div>
+        </div>
+        <h2 class="display-4">Responsive Grid</h2>
+        <div class="row">
+            <div class="col-md-6 col-xl-3 bg-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, et quibusdam omnis a molestiae soluta
+                quidem? Eveniet minima quis non pariatur odit sint alias magnam eaque omnis modi. Quas, alias.
+            </div>
+            <div class="col-md-6 col-xl-3  bg-success">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, et quibusdam omnis a molestiae soluta
+                quidem? Eveniet minima quis non pariatur odit sint alias magnam eaque omnis modi. Quas, alias.
+            </div>
+            <div class="col-md-6 col-xl-3  bg-warning">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, et quibusdam omnis a molestiae soluta
+                quidem? Eveniet minima quis non pariatur odit sint alias magnam eaque omnis modi. Quas, alias.
+            </div>
+            <div class="col-md-6 col-xl-3  bg-danger">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, et quibusdam omnis a molestiae soluta
+                quidem? Eveniet minima quis non pariatur odit sint alias magnam eaque omnis modi. Quas, alias.
+            </div>
+        </div>
+
+        <h2 class="display-4">Grid Alignment</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6 col-xl-3 bg-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, et quibusdam omnis a molestiae soluta
+                quidem? Eveniet minima quis non pariatur odit sint alias magnam eaque omnis modi. Quas, alias.
+            </div>
+            <div class="col-md-6 col-xl-3  bg-success">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, et quibusdam omnis a molestiae soluta
+                quidem? Eveniet minima quis non pariatur odit sint alias magnam eaque omnis modi. Quas, alias.
+            </div>
+            <div class="col-md-6 col-xl-3  bg-warning">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quam facere nostrum laudantium maxime,
+                iure incidunt dolorum id assumenda qui explicabo blanditiis quibusdam voluptates eaque! Nulla fugit
+                earum laudantium alias!
+                Alias aliquam quibusdam corporis officia maxime ullam, placeat veniam amet excepturi, incidunt beatae
+                non iste nesciunt doloribus repellat eligendi ipsum suscipit mollitia. Odit asperiores laudantium
+                delectus earum cumque sapiente voluptatem.
+            </div>
+            <div class="col-md-6 col-xl-3  bg-danger align-self-end">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, et quibusdam omnis a molestiae soluta
+                quidem? Eveniet minima quis non pariatur odit sint alias magnam eaque omnis modi. Quas, alias.
+            </div>
+        </div>
+
+        <h3>Justify Content</h3>
+        <div class="row border justify-content-center justify-content-lg-start justify-content-xl-between">
+            <div class="col-md-4 bg-primary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis velit numquam doloremque repellat
+                quibusdam laboriosam obcaecati eaque odit ab deserunt, blanditiis, corporis debitis porro nobis illo
+                fugit eius quis autem!
+            </div>
+            <div class="col-md-4 bg-secondary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis velit numquam doloremque repellat
+                quibusdam laboriosam obcaecati eaque odit ab deserunt, blanditiis, corporis debitis porro nobis illo
+                fugit eius quis autem!
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-xl-4 col-md-6">
+                <img class="img-fluid"
+                    src="https://images.unsplash.com/photo-1653304796721-1888c06951b4?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873"
+                    alt="">
+            </div>
+            <div class="col-xl-4 col-md-6 ">
+                <img class="img-fluid"
+                    src="https://images.unsplash.com/photo-1641760152289-62b634949e0b?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774"
+                    alt="">
+            </div>
+            <div class="col-xl-4 col-md-6 ">
+                <img class="img-fluid"
+                    src="https://images.unsplash.com/photo-1623070424396-943b6678b345?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=709"
+                    alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
